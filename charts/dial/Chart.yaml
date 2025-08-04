@@ -12,7 +12,7 @@ dependencies:
   - name: keycloak
     repository: https://charts.bitnami.com/bitnami
     condition: keycloak.enabled
-    version: 24.4.3
+    version: 24.7.6
   - name: dial-extension
     repository: https://charts.epam-rail.com
     alias: authhelper
@@ -70,4 +70,4 @@ maintainers:
 name: dial
 sources:
   - https://github.com/epam/ai-dial-helm/tree/main/charts/dial
-version: 5.13.0
+version: 5.13.1
