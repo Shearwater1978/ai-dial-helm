@@ -13,7 +13,7 @@ dependencies:
     repository: https://charts.bitnami.com/bitnami
     alias: redis
     condition: redis.enabled
-    version: 11.4.0
+    version: 12.0.3
 description: Helm chart for dial core
 home: https://epam-rail.com
 icon: "https://docs.dialx.ai/img/favicon.ico"
