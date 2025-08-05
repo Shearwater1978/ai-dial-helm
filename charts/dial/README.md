@@ -1,6 +1,6 @@
 # dial
 
-![Version: 5.13.0](https://img.shields.io/badge/Version-5.13.0-informational?style=flat-square) ![AppVersion: 1.33.0](https://img.shields.io/badge/AppVersion-1.33.0-informational?style=flat-square)
+![Version: 5.13.2](https://img.shields.io/badge/Version-5.13.2-informational?style=flat-square) ![AppVersion: 1.33.0](https://img.shields.io/badge/AppVersion-1.33.0-informational?style=flat-square)
 
 Umbrella chart for DIAL solution
 
@@ -16,7 +16,7 @@ Kubernetes: `>=1.23.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.bitnami.com/bitnami | keycloak | 24.4.3 |
+| https://charts.bitnami.com/bitnami | keycloak | 24.7.6 |
 | https://charts.epam-rail.com | core(dial-core) | 4.2.3 |
 | https://charts.epam-rail.com | authhelper(dial-extension) | 1.3.2 |
 | https://charts.epam-rail.com | chat(dial-extension) | 1.3.2 |
