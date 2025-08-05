@@ -1,8 +1,8 @@
 # dial-core
 
-![Version: 4.2.3](https://img.shields.io/badge/Version-4.2.3-informational?style=flat-square) ![AppVersion: 1.0](https://img.shields.io/badge/AppVersion-1.0-informational?style=flat-square)
+![Version: 4.2.4](https://img.shields.io/badge/Version-4.2.4-informational?style=flat-square) ![AppVersion: 1.0](https://img.shields.io/badge/AppVersion-1.0-informational?style=flat-square)
 
-Helm chart for dial core
+Helm chart for dial core.
 
 ## TL;DR
 
@@ -47,7 +47,7 @@ helm delete my-release
 
 The command removes all the Kubernetes components associated with the chart and deletes the release.
 
-**NOTE**: Persistent Volumes created by StatefulSets won't be deleted automatically
+**NOTE**: Persistent Volumes created by StatefulSets won't be deleted automatically.
 
 ## Parameters
 
