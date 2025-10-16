@@ -25,7 +25,7 @@ Kubernetes: `>=1.23.0-0`
 | https://charts.epam-rail.com | bedrock(dial-extension) | 1.3.3 |
 | https://charts.epam-rail.com | vertexai(dial-extension) | 1.3.3 |
 | https://charts.epam-rail.com | dial(dial-extension) | 1.3.3 |
-| https://charts.epam-rail.com | assistant(dial-extension) | 1.3.2 |
+| https://charts.epam-rail.com | assistant(dial-extension) | 1.3.3 |
 | oci://registry-1.docker.io/bitnamicharts | common | 2.29.0 |
 
 ## Installing the Chart

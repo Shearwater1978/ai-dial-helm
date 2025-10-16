@@ -57,7 +57,7 @@ dependencies:
     repository: https://charts.epam-rail.com
     alias: assistant
     condition: assistant.enabled
-    version: 1.3.2
+    version: 1.3.3
 description: Umbrella chart for DIAL solution
 home: https://dialx.ai/
 icon: "https://docs.dialx.ai/img/favicon.ico"
