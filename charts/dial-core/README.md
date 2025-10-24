@@ -1,6 +1,6 @@
 # dial-core
 
-![Version: 4.3.4](https://img.shields.io/badge/Version-4.3.4-informational?style=flat-square) ![AppVersion: 1.0](https://img.shields.io/badge/AppVersion-1.0-informational?style=flat-square)
+![Version: 4.3.5](https://img.shields.io/badge/Version-4.3.5-informational?style=flat-square) ![AppVersion: 1.0](https://img.shields.io/badge/AppVersion-1.0-informational?style=flat-square)
 
 Helm chart for dial core
 
