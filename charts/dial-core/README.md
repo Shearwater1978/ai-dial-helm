@@ -170,7 +170,7 @@ helm install my-release dial/dial-core -f values.yaml
 | logger.image.pullSecrets | list | `[]` | Optionally specify an array of imagePullSecrets. Secrets must be manually created in the namespace. |
 | logger.image.registry | string | `"docker.io"` | Image registry for logger component |
 | logger.image.repository | string | `"timberio/vector"` | Image repository for logger component |
-| logger.image.tag | string | `"0.48.0-alpine"` | Image tag for logger component |
+| logger.image.tag | string | `"0.45.0-alpine"` | Image tag for logger component |
 | logger.resources | object | `{}` | Container resource requests and limits for logger component. [Documentation](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/) |
 | logger.secrets | object | `{}` | Key-value pairs extra environment variables to add in environment variables from secrets to dial-extension |
 | metrics | object | [Documentation](https://github.com/prometheus-operator/prometheus-operator/blob/main/Documentation/getting-started/design.md) | Configuration resources for prometheus metrics |
