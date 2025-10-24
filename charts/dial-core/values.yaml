@@ -478,7 +478,7 @@ logger:
     # -- Image repository for logger component
     repository: timberio/vector
     # -- Image tag for logger component
-    tag: 0.45.0-alpine
+    tag: 0.50.0-alpine
     # -- Image digest for logger component in the way sha256:aa....
     digest: ""
     # -- Image pull policy for logger component
