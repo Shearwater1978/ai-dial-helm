@@ -22,7 +22,7 @@ dependencies:
     repository: https://shearwater1978.github.io/ai-dial-helm
     alias: core
     condition: core.enabled
-    version: 4.3.3
+    version: 4.3.5
   - name: dial-extension
     repository: https://shearwater1978.github.io/ai-dial-helm
     alias: chat

@@ -17,7 +17,7 @@ Kubernetes: `>=1.23.0-0`
 | Repository | Name | Version |
 |------------|------|---------|
 | https://charts.bitnami.com/bitnami | keycloak | 25.2.0 |
-| https://shearwater1978.github.io/ai-dial-helm | core(dial-core) | 4.3.3 |
+| https://shearwater1978.github.io/ai-dial-helm | core(dial-core) | 4.3.5 |
 | https://shearwater1978.github.io/ai-dial-helm | authhelper(dial-extension) | 1.3.4 |
 | https://shearwater1978.github.io/ai-dial-helm | chat(dial-extension) | 1.3.4 |
 | https://shearwater1978.github.io/ai-dial-helm | themes(dial-extension) | 1.3.4 |
