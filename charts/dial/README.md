@@ -133,6 +133,7 @@ helm install my-release dial/dial -f values.yaml
 | keycloak.postgresql.enabled | bool | `true` |  |
 | keycloak.postgresql.image.repository | string | `"bitnamilegacy/postgresql"` |  |
 | keycloak.proxy | string | `"edge"` |  |
+| keycloak.usePasswordFiles | bool | `false` |  |
 | openai.commonLabels."app.kubernetes.io/component" | string | `"adapter"` |  |
 | openai.enabled | bool | `false` | Enable/disable ai-dial-adapter-openai |
 | openai.image.repository | string | `"epam/ai-dial-adapter-openai"` |  |
