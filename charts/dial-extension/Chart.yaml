@@ -8,7 +8,7 @@ dependencies:
     repository: oci://registry-1.docker.io/bitnamicharts
     tags:
       - bitnami-common
-    version: 2.31.7
+    version: 2.31.4
 description: Helm chart for dial extensions
 home: https://dialx.ai
 icon: "https://docs.dialx.ai/img/favicon.ico"
