@@ -1981,6 +1981,39 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: "1.0"
+    created: "2025-10-29T13:48:06.950801364Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.31.4
+    - alias: redis
+      condition: redis.enabled
+      name: redis-cluster
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.0.4
+    description: Helm chart for dial core
+    digest: 693678b67776de0c0ccdd14e64d17eef5d7d792cb8e88a60dbe962dfaa464d64
+    home: https://epam-rail.com
+    icon: https://docs.dialx.ai/img/favicon.ico
+    keywords:
+    - ai-dial
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: EPAM Systems
+      url: https://github.com/epam
+    name: dial-core
+    sources:
+    - https://github.com/epam/ai-dial-helm/tree/main/charts/dial-core
+    urls:
+    - https://github.com/Shearwater1978/ai-dial-helm/releases/download/dial-core-4.3.6/dial-core-4.3.6.tgz
+    version: 4.3.6
+  - annotations:
+      category: MachineLearning
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: "1.0"
     created: "2025-10-24T12:14:01.214946974Z"
     dependencies:
     - name: common
@@ -2648,4 +2681,4 @@ entries:
     urls:
     - https://github.com/epam/ai-dial-helm/releases/download/dial-extension-1.0.0/dial-extension-1.0.0.tgz
     version: 1.0.0
-generated: "2025-10-28T11:44:09.91718567Z"
+generated: "2025-10-29T13:48:06.95103995Z"
