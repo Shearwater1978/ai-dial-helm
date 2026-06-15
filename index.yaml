@@ -698,6 +698,39 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: "1.0"
+    created: "2026-06-15T09:37:22.61979856Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.31.4
+    - alias: valkey
+      condition: valkey.enabled
+      name: valkey
+      repository: https://valkey.io/valkey-helm
+      version: 0.9.4
+    description: Helm chart for dial core
+    digest: 223afe7f51b730167f3f3dd6ce5a78c58b2ce6fd5a3676f7e3f6743b8eb87156
+    home: https://dialx.ai
+    icon: https://docs.dialx.ai/img/favicon.ico
+    keywords:
+    - ai-dial
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: EPAM Systems
+      url: https://github.com/epam
+    name: dial-core
+    sources:
+    - https://github.com/epam/ai-dial-helm/tree/main/charts/dial-core
+    urls:
+    - https://github.com/Shearwater1978/ai-dial-helm/releases/download/dial-core-6.0.1/dial-core-6.0.1.tgz
+    version: 6.0.1
+  - annotations:
+      category: MachineLearning
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: "1.0"
     created: "2026-06-12T04:19:08.477966914Z"
     dependencies:
     - name: common
@@ -877,4 +910,4 @@ entries:
     urls:
     - https://github.com/Shearwater1978/ai-dial-helm/releases/download/dial-extension-3.0.0/dial-extension-3.0.0.tgz
     version: 3.0.0
-generated: "2026-06-12T05:17:48.990489608Z"
+generated: "2026-06-15T09:37:22.61984526Z"
